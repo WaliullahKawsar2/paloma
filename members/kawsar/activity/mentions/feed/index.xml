@@ -1,0 +1,36 @@
+<br />
+<b>Warning</b>:  Attempt to read property "ID" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4186</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_title" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4188</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_name" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4190</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_content" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp-job-manager\includes\class-wp-job-manager-shortcodes.php</b> on line <b>87</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_type" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4338</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_type" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4338</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_type" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4338</b><br />
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Paloma | Waliullah Kawsar | Mentions</title>
+	<link>/www.waliullahkawsar2.github.io/pa-loma/members/kawsar/activity/mentions/</link>
+	<atom:link href="/www.waliullahkawsar2.github.io/pa-loma/members/kawsar/activity/mentions/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed mentioning Waliullah Kawsar.</description>
+	<lastBuildDate>Wed, 29 Jun 2022 08:44:17 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=10.3.0</generator>
+	<language>en-US</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+	</channel>
+</rss>

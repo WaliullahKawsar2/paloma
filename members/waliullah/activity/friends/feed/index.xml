@@ -1,0 +1,86 @@
+<br />
+<b>Warning</b>:  Attempt to read property "ID" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4186</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_title" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4188</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_name" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4190</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_content" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp-job-manager\includes\class-wp-job-manager-shortcodes.php</b> on line <b>87</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_type" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4338</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_type" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4338</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "post_type" on null in <b>D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-query.php</b> on line <b>4338</b><br />
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Paloma | Waliullahz | Friends Activity</title>
+	<link>/www.waliullahkawsar2.github.io/pa-loma/members/waliullah/activity/friends/</link>
+	<atom:link href="/www.waliullahkawsar2.github.io/pa-loma/members/waliullah/activity/friends/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for Waliullahz's friends.</description>
+	<lastBuildDate>Wed, 29 Jun 2022 08:44:17 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=10.3.0</generator>
+	<language>en-US</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">172a0b2c7ba9738249f06c57f7bf0c07</guid>
+				<title>Waliullah Kawsar posted an update in the group Discuss: Ki obostha sobar?</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/10/</link>
+				<pubDate>Wed, 29 Jun 2022 07:09:44 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>Ki obostha sobar?</p>
+]]></content:encoded>
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">b260388863ee216ee06177a1a38d7fdf</guid>
+				<title>Waliullah Kawsar joined the group Discuss</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/9/</link>
+				<pubDate>Wed, 29 Jun 2022 07:08:28 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">1eeca3f06d3f553a007c360d424f8169</guid>
+				<title>Waliullah Kawsar posted a new activity comment</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/2/#acomment-3</link>
+				<pubDate>Tue, 28 Jun 2022 08:26:52 +0000</pubDate>
+
+									<content:encoded><![CDATA[<div class="rtmedia-activity-container">
+<div class="rtmedia-activity-text">
+					<span>nice</span>
+				</div>
+<ul class="rtmedia-list rtm-activity-media-list rtmedia-activity-media-length-0 rtm-activity-mixed-list"></ul>
+</div>
+				<strong>In reply to</strong> -
+				<a href="/www.waliullahkawsar2.github.io/pa-loma/members/kawsar/profile/">Waliullah Kawsar</a>&#039;s profile was updated			]]></content:encoded>
+				
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">99c6e66dbc40c79d8beb2977d33700c7</guid>
+				<title>Waliullah Kawsar&#039;s profile was updated</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/2/</link>
+				<pubDate>Tue, 28 Jun 2022 08:05:30 +0000</pubDate>
+
+				
+									<slash:comments>2</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

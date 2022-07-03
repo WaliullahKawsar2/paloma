@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Paloma | Site-Wide Activity</title>
+	<link>/www.waliullahkawsar2.github.io/pa-loma/activity/</link>
+	<atom:link href="/www.waliullahkawsar2.github.io/pa-loma/activity/feed/" rel="self" type="application/rss+xml" />
+	<description>Activity feed for the entire site.</description>
+	<lastBuildDate>Wed, 29 Jun 2022 08:44:17 +0000</lastBuildDate>
+	<generator>https://buddypress.org/?v=10.3.0</generator>
+	<language>en-US</language>
+	<ttl>30</ttl>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>2</sy:updateFrequency>
+	
+						<item>
+				<guid isPermaLink="false">172a0b2c7ba9738249f06c57f7bf0c07</guid>
+				<title>Waliullah Kawsar posted an update in the group Discuss: Ki obostha sobar?</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/10/</link>
+				<pubDate>Wed, 29 Jun 2022 07:09:44 +0000</pubDate>
+
+									<content:encoded><![CDATA[<p>Ki obostha sobar?</p>
+]]></content:encoded>
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">b260388863ee216ee06177a1a38d7fdf</guid>
+				<title>Waliullah Kawsar joined the group Discuss</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/9/</link>
+				<pubDate>Wed, 29 Jun 2022 07:08:28 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">03c6632ddfd571a35ff77c6e06c16f09</guid>
+				<title>Waliullahz created the group Discuss</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/8/</link>
+				<pubDate>Wed, 29 Jun 2022 07:06:26 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">5218ae0e080e9d956cf2c59109a450a2</guid>
+				<title>Waliullahz and Waliullah Kawsar are now friends</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/7/</link>
+				<pubDate>Wed, 29 Jun 2022 04:51:56 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">a07c092ecb43dc1bfca918ff4a761e2d</guid>
+				<title>Waliullahz became a registered member</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/4/</link>
+				<pubDate>Wed, 29 Jun 2022 04:44:46 +0000</pubDate>
+
+				
+									<slash:comments>0</slash:comments>
+				
+							</item>
+					<item>
+				<guid isPermaLink="false">99c6e66dbc40c79d8beb2977d33700c7</guid>
+				<title>Waliullah Kawsar&#039;s profile was updated</title>
+				<link>/www.waliullahkawsar2.github.io/pa-loma/activity/p/2/</link>
+				<pubDate>Tue, 28 Jun 2022 08:05:30 +0000</pubDate>
+
+				
+									<slash:comments>2</slash:comments>
+				
+							</item>
+		
+	</channel>
+</rss>

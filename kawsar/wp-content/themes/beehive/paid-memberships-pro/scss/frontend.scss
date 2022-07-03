@@ -1,0 +1,1156 @@
+// Beehive variables
+@import '../../assets/scss/_variables';
+// Beehive mixins
+@import '../../assets/scss/_mixins';
+
+/*---------------------------------------
+	Buttons
+---------------------------------------*/
+.pmpro_btn.pmpro_btn-cancel,
+.pmpro_btn.pmpro_btn-cancel:link,
+.pmpro_btn.pmpro_btn-cancel:hover,
+.pmpro_btn.pmpro_btn-cancel:focus,
+.entry-content a.pmpro_btn.pmpro_btn-cancel:hover {
+	background: none;
+	border: none;
+	box-shadow: none;
+	box-shadow: none;
+	color: $beehive-primary;
+	font-weight: normal;
+}
+
+.pmpro_btn {
+
+	&.pmpro_btn-submit-checkout {
+		display: block;
+		width: auto;
+		font-size: 1.125em;
+		padding: .75rem 3rem;
+		border-radius: 50px;
+		margin-top: 2rem;
+	}
+}
+
+/*---------------------------------------
+	Tables
+---------------------------------------*/
+table.pmpro_table {
+	margin-bottom: 1.5rem;
+
+	th,
+	td {
+		padding: .75rem;
+		border: 1px solid;
+		border-color: #e7edf2;
+	}
+
+	+ .pmpro_actions_nav,
+	+ .pmpro_actionlinks {
+		margin-top: -1rem;
+	}
+}
+
+/*---------------------------------------
+	Forms
+---------------------------------------*/
+#loginform p {
+	margin: 0 0 1rem 0;
+}
+
+form.pmpro_form,
+#loginform {
+
+	label {
+		display: block;
+	}
+}
+
+form.pmpro_form {
+
+	hr {
+		display: none;
+	}
+
+	.lite {
+		color: $beehive-light;
+		font-size: 12px;
+		line-height: 1.5;
+		margin-top: .5rem;
+	}
+
+	.pmpro_checkout {
+		position: relative;
+
+		&:not(:last-child) {
+			margin-bottom: 2rem;
+		}
+
+		&#pmpro_pricing_fields {
+
+			.pmpro_checkout-fields {
+
+				> ul {
+					padding: 0;
+
+					@include extra-small-min() {
+						@include flexbox();
+						@include flex-wrap(wrap);
+
+						> li {
+							@include flex(0 0 50%);
+							max-width: 50%;
+							width: 50%;
+						}
+					}
+
+					> li {
+						list-style: none;
+						position: relative;
+
+						&::before {
+							content: "\e8d6";
+							font-family: 'unicons';
+							margin-right: .25rem;
+							color: $beehive-primary;
+						}
+					}
+
+				}
+			}
+		}
+	}
+
+	.pmpro_checkout-fields {
+
+		> div:not(:last-child) {
+			margin: 0 0 1rem 0;
+		}
+
+		.pmpro_checkout-field {
+			position: relative;
+
+			.pmpro_asterisk {
+				position: absolute;
+				top: 0;
+				right: 0;
+				color: $beehive-light;
+			}
+		}
+	}
+
+	.pmpro_member_profile_edit-fields {
+
+		div {
+			margin: 0 0 1rem 0;
+		}
+	}
+
+	.pmpro_change_password-fields {
+
+		div {
+			margin: 0 0 1rem 0;
+			position: relative;
+		}
+
+		.pmpro_change_password-field {
+			position: relative;
+
+			.pmpro_asterisk {
+				position: absolute;
+				top: 0;
+				right: 0;
+				color: $beehive-light;
+			}
+		}
+	}
+
+	#other_discount_code.input {
+		display: inline-block;
+		width: auto;
+	}
+
+	.pmpro_submit {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	#pmpro_billing_address_fields {
+
+		.pmpro_checkout-fields {
+
+			@include flexbox();
+			@include flex-wrap(wrap);
+			margin: 0 -15px;
+
+			> * {
+				@include flex(0 0 100%);
+				width: 100%;
+				max-width: 100%;
+				padding: 0 15px;
+				position: relative;
+			}
+
+			select {
+				width: 100%;
+			}
+
+			.pmpro_checkout-field-bfirstname,
+			.pmpro_checkout-field-blastname,
+			.pmpro_checkout-field-bemail,
+			.pmpro_checkout-field-bconfirmemail {
+
+				@include extra-small-min() {
+					max-width: 50%;
+				}
+			}
+
+			.pmpro_checkout-field-bcity,
+			.pmpro_checkout-field-bstate,
+			.pmpro_checkout-field-bzipcode {
+
+				@include extra-small-min() {
+					max-width: calc(100% / 3);
+				}
+			}
+
+			.pmpro_checkout-field-bcity_state_zip {
+				@include flexbox();
+				@include flex-wrap(wrap);
+
+				label {
+					@include flex(0 0 100%);
+				}
+
+				input,
+				select {
+					flex: 1 1 0;
+					margin-left: 30px;
+				}
+
+				input:first-of-type {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+
+	#pmpro_payment_information_fields {
+		position: relative;
+
+		.pmpro_checkout-fields {
+			@include flexbox();
+			@include flex-wrap(wrap);
+			margin: 0 -15px;
+
+			> * {
+				@include flex(0 0 100%);
+				width: 100%;
+				max-width: 100%;
+				padding: 0 15px;
+				position: relative;
+			}
+
+			.pmpro_payment-expiration {
+				position: relative;
+				max-width: 100%;
+				width: 100%;
+				@include flexbox();
+				@include flex-wrap(wrap);
+				@include align-items(center);
+
+				@include small-min() {
+					max-width: 50%;
+				}
+
+				label {
+					@include flex(0 0 100%);
+					min-width: 100%;
+					max-width: 100%;
+					width: 100%;
+				}
+
+				select {
+
+					&#ExpirationMonth {
+						margin-right: .5rem
+					}
+					
+					&#ExpirationYear {
+						margin-left: .5rem;
+						@include flex-grow(1);
+					}
+				}
+
+				.pmpro_asterisk {
+					position: absolute;
+				}
+			}
+
+			.pmpro_payment-cvv {
+				width: 100%;
+
+				@include small-min() {
+					max-width: 50%;
+				}
+
+				small {
+					position: absolute;
+					
+					a {
+						color: $beehive-mute;
+					}
+				}
+			}
+
+			.pmpro_payment-discount-code {
+				margin-top: 1rem;
+				padding-top: 1rem;
+				border-top: 1px solid $beehive-border;
+
+				input {
+					display: inline-block;
+					width: auto;
+
+					@include extra-small-min() {
+						
+						&#discount_code {
+							min-width: 200px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.pmpro_checkout-field-checkbox {
+
+		label {
+			cursor: pointer;
+		display: inline-block;
+		}
+	}
+
+	label {
+
+		&.pmpro_label-inline {
+			display: inline-block;
+		}
+
+		&.pmpro_clickable {
+			cursor: pointer;
+		}
+	}
+
+	.pmpro_asterisk {
+
+		abbr {
+			border: none;
+			text-decoration: none;
+		}
+	}
+
+	#pmpro_processing_message {
+		display: block;
+		margin: 1rem 0 0 0;
+	}
+
+	.pmpro_captcha {
+
+		div {
+			clear: none;
+			margin: 0;
+		}
+	}
+}
+
+.pmpro_message,
+.pmpro_bbp_membership_msg {
+	background-color: #fff;
+	padding: 1rem 1.5rem;
+	margin-bottom: 1rem;
+	position: relative;
+	border: 1px solid $beehive-border;
+	border-top: 2px solid $beehive-info; // Info check dynamic css
+	border-radius: 12px;
+	box-shadow: 0 8px 6px -6px rgba($beehive-shadow, 0.05);
+
+	a,
+	a:hover {
+		color: $beehive-info;
+	}
+
+	> * {
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.pmpro_success {
+	border-top-color: $beehive-success;
+
+	a,
+	a:hover {
+		color: $beehive-success;
+	}
+}
+
+.pmpro_alert {
+	border-top-color: $beehive-warn;
+
+	a,
+	a:hover {
+		color: $beehive-warn;
+	}
+}
+
+.pmpro_error {
+	border-top-color: $beehive-error;
+
+	a {
+		color: $beehive-error;
+	}
+}
+
+input[type="text"].pmpro_error,
+input[type="email"].pmpro_error,
+input[type="url"].pmpro_error,
+input[type="password"].pmpro_error,
+input[type="number"].pmpro_error,
+input[type="tel"].pmpro_error,
+input[type="range"].pmpro_error,
+input[type="date"].pmpro_error,
+input[type="month"].pmpro_error,
+input[type="week"].pmpro_error,
+input[type="time"].pmpro_error,
+input[type="datetime"].pmpro_error,
+input[type="datetime-local"].pmpro_error,
+input[type="color"].pmpro_error,
+textarea.pmpro_error {
+	border-color: $beehive-error;
+}
+
+.pmpro_content_message {
+
+	a,
+	a:link {
+		margin: .75rem .75rem 0 0;
+	}
+}
+
+#pmpro_message_bottom {
+	margin-bottom: 1rem;
+}
+
+.pmpro_bbp_membership_msg {
+	margin-top: 1.5rem;
+	border-top-color: $beehive-error;
+}
+
+/*---------------------------------------
+	Membership Checkout
+---------------------------------------*/
+.pmpro_checkout {
+
+	h3 {
+
+		span {
+
+			&.pmpro_checkout-h3-name {
+				display: block;
+				margin-bottom: .5rem;
+			}
+
+			&.pmpro_checkout-h3-msg {
+				font-family: $beehive-body-font-family;
+				font-size: 11px;
+				font-weight: normal;
+				letter-spacing: normal;
+				color: $beehive-mute;
+				display: block;
+
+				a {
+					color: $beehive-primary;
+				}
+			}
+		}
+	}
+
+	#discount_code_message {
+		margin-top: 1rem;
+	}
+}
+
+#other_discount_code_p {
+
+	a {
+		color: $beehive-primary;
+	}
+}
+
+#pmpro_payment_method {
+
+	span {
+		display: block;
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+}
+
+#pmpro_payment_information_fields {
+
+	.pmpro_checkout-fields-display-seal {
+		display: block;
+
+		.pmpro_checkout-fields-rightcol {
+			margin-top: .5rem;
+		}
+	}
+}
+
+#pmpro_license {
+	border: 1px solid $beehive-border;
+	height: 150px;
+	overflow: auto;
+	padding: .5rem;
+	border-radius: 12px;
+}
+
+/* Stripe gateway Membership Checkout specific styles. */
+.pmpro_checkout_gateway-stripe,
+.pmpro_billing_gateway-stripe {
+
+	form.pmpro_form {
+
+		#pmpro_payment_information_fields {
+
+			div#AccountNumber,
+			div#Expiry,
+			div#CVV,
+			div#AccountNumber,
+			div#Expiry,
+			div#CVV {
+				background-color: $beehive-input;
+				display: block;
+				height: 2.5rem;
+				padding: .75rem 1rem;
+				border: 1px solid transparent;
+				border-radius: 1.25rem;
+				width: 100%;
+			}
+		}
+	}
+}
+
+h4.pmpro_payment-credit-card {
+	font-size: 0.961em;
+}
+
+.pmpro_checkout_gateway-stripe form.pmpro_form #pmpro_payment_information_fields #payment-request-button {
+	margin-bottom: 1rem;
+}
+
+/*---------------------------------------
+	Membership Confirmation
+---------------------------------------*/
+
+/*---------------------------------------
+	Membership Invoice
+---------------------------------------*/
+.pmpro_invoice_details {
+	@include flexbox();
+
+	@include small-max() {
+		display: block;
+	}
+
+	.pmpro_invoice-billing-address,
+	.pmpro_invoice-payment-method,
+	.pmpro_invoice-total {
+		@include flex(3 1 33%);
+	}
+
+	.pmpro_invoice-billing-address,
+	.pmpro_invoice-payment-method {
+		padding-right: 1rem;
+	}
+}
+
+/*---------------------------------------
+	Membership Account
+---------------------------------------*/
+#pmpro_account {
+
+	.pmpro_box {
+
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+
+		p {
+			margin-bottom: .5rem;
+		}
+
+		ul {
+			margin-bottom: 0;
+		}
+	}
+
+	@include extra-small-min() {
+
+		#pmpro_account-membership {
+
+			.pmpro_table td:nth-child(1) {
+				min-width: 200px;
+			}
+		}
+	}
+
+	#pmpro_account-profile {
+
+		.pmpro_actionlinks {
+			margin-top: .5em;
+		}
+	}
+}
+
+.pmpro_actionlinks {
+
+	a {
+		display: inline-block;
+		text-decoration: none;
+		color: $beehive-primary;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.pmpro_hidden {
+	display: none;
+}
+
+li.pmpro_more {
+	list-style-type: none;
+	margin-left: -20px;
+	padding-left: 0;
+	text-align: center;
+}
+
+/*---------------------------------------
+	Membership Billing Page
+---------------------------------------*/
+.pmpro_billing_wrap {
+	
+	> a,
+	> p a {
+		color: $beehive-primary;
+	}
+
+	> ul {
+		margin-bottom: 2rem;
+	}
+}
+
+/*---------------------------------------
+	Log In and Password Reset Pages
+---------------------------------------*/
+.pmpro_login_wrap,
+.pmpro_lost_password_wrap,
+.pmpro_reset_password_wrap {
+	margin-bottom: 1em;
+
+	hr {
+		display: none;
+	}
+}
+
+.pmpro_logged_in_welcome_wrap {
+
+	.pmpro_member_display_name {
+		margin-bottom: .5rem;
+
+		a {
+			color: inherit;
+			text-decoration: underline;
+		}
+	}
+
+	.pmpro_member_log_out {
+
+		a {
+			color: $beehive-primary;
+		}
+	}
+}
+
+.pw-weak {
+	display: none;
+}
+
+.indicator-hint {
+	padding-top: 8px;
+}
+
+/* Hide the Edge "reveal password" native button */
+.wp-pwd input::-ms-reveal {
+	display: none;
+}
+
+.pass1-text,
+.show-password #pass1 {
+	display: none;
+}
+
+.pass1-text::-ms-clear {
+	display: none;
+}
+
+.show-password #pass1-text {
+	display: inline-block;
+}
+
+/*---------------------------------------
+	Member Profile Edit Page
+---------------------------------------*/
+
+/*---------------------------------------
+	Membership Levels
+---------------------------------------*/
+#pmpro_levels_table {
+
+	&.pmpro-levels-container {
+		margin-bottom: 30px;
+
+		&.level-count-1,
+		&.level-count-2,
+		&.level-count-3 {
+
+			@include medium-min() {
+				max-width: 820px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+
+	.beehive-memberships {
+		@include flexbox();
+		@include flex-wrap(wrap);
+		margin: -15px;
+
+		.column {
+			position: relative;
+			@include flex(0 0 100%);
+			width: 100%;
+			padding: 15px;
+		}
+
+		@include extra-small-min() {
+
+			&.max-columns-2,
+			&.max-columns-3,
+			&.max-columns-4 {
+
+				.column {
+					@include flex(1 1 calc(100% / 2));
+
+					&:not(:nth-child(-n+2)) {
+						max-width: calc(100% / 2);
+					}
+				}
+			}
+		}
+
+		@include medium-min() {
+
+			&.max-columns-2 {
+
+				.column {
+					@include flex(1 1 calc(100% / 2));
+
+					&:not(:nth-child(-n+2)) {
+						max-width: calc(100% / 2);
+					}
+				}
+			}
+		}
+	
+		@include medium-min() {
+
+			&.max-columns-3 {
+	
+				.column {
+					@include flex(1 1 calc(100% / 3));
+
+					&:not(:nth-child(-n+3)) {
+						max-width: calc(100% / 3);
+					}
+				}
+			}
+		}
+
+		@include medium-min() {
+
+			&.max-columns-4 {
+	
+				.column {
+					@include flex(1 1 calc(100% / 2));
+
+					&:not(:nth-child(-n+3)) {
+						max-width: calc(100% / 2);
+					}
+				}
+			}
+		}
+
+		@include large-min() {
+
+			&.max-columns-4 {
+	
+				.column {
+					@include flex(1 1 calc(100% / 4));
+
+					&:not(:nth-child(-n+4)) {
+						max-width: calc(100% / 4);
+					}
+				}
+			}
+		}
+		
+	}
+
+	.level-wrapper {
+		background-color: #fff;
+		@include flexbox();
+		@include flex-direction(column);
+		height: 100%;
+		padding: 2rem;
+		border-radius: 12px;
+		text-align: center;
+		overflow: hidden;
+		position: relative;
+		box-shadow: 0 20px 50px rgba($beehive-shadow, .06);
+		border: 1px solid transparent;
+
+		&.active {
+			border-color: $beehive-primary;
+		} 
+
+		> * {
+			margin-bottom: 1rem;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.level-description {
+
+			> * {
+				margin-bottom: 1rem;
+
+				&:first-child {
+					margin-top: 0;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			ul {
+				padding: 0;
+
+				li {
+					list-style: none;
+					padding: .25rem 0;
+					position: relative;
+
+					&:not(:last-child) {
+						border-bottom: 1px dotted $beehive-border;
+					}
+
+					&::before {
+						content: "\e8d6";
+						font-family: 'unicons';
+						margin-right: .25rem;
+						color: $beehive-primary;
+						position: absolute;
+						transform: translateX(-1.125rem);
+					}
+				}
+			}
+
+			img {
+				border-radius: 12px;
+			}
+		}
+
+		.level-pricing {
+			font-size: 90%;
+			line-height: 1.5;
+			margin-top: auto;
+
+			strong {
+
+				&:first-child {
+					display: block;
+					font-family: Verdana, sans-serif;
+					font-size: 2.25em;
+					line-height: 1;
+					color: $beehive-primary;
+					margin-bottom: .25rem;
+				}
+			}
+		}
+
+		.level-expiration {
+			line-height: 1.5;
+		}
+
+		.level-checkout {
+			background-color: #fafafd;
+			margin: auto -2rem -2rem;
+			padding: .75rem 2rem;
+			border-top: 1px solid $beehive-border;
+
+			a.pmpro_btn {
+				width: 100%;
+			}
+		}
+
+		.level-pricing + .level-checkout,
+		.level-expiration + .level-checkout {
+			margin-top: 0;
+		}
+
+		&:hover {
+			transform: scale(1.05);
+			box-shadow: 0 40px 70px rgba($beehive-shadow, .1);
+			transition: all .5s;
+
+			.level-checkout {
+
+				a.pmpro_btn {
+					background-color: $beehive-primary;
+					background-image: linear-gradient(90deg, $beehive-primary 0, lighten($beehive-primary, 15%) 50%, $beehive-primary 100%);
+					background-size: 200%;;
+					color: #fff;
+					border: none;
+
+					&:hover {
+						background-position: right center;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*---------------------------------------
+	Membership cancel
+---------------------------------------*/
+.pmpro_cancel_wrap {
+
+	> h2 {
+		font-size: 1.616em;
+	}
+}
+
+/*---------------------------------------
+	Misc
+---------------------------------------*/
+.pmpro_actions_nav,
+.pmpro_cancel_return_home {
+	overflow: hidden;
+
+	a {
+		color: $beehive-primary;
+	}
+}
+
+.pmpro_actions_nav-left {
+	display: block;
+	float: left;
+	width: 48%;
+	text-align: left;
+}
+
+.pmpro_actions_nav-right {
+	display: block;
+	float: right;
+	width: 48%;
+	text-align: right;
+}
+
+.pmpro_a-right {
+	float: right;
+	font-size: 11px;
+	text-align: right;
+	text-decoration: underline;
+	width: auto;
+}
+
+.pmpro_a-print {
+	position: relative;
+	color: $beehive-primary;
+	cursor: pointer;
+	float: right;
+	padding: 0px 0px 2px 20px;
+	text-decoration: none;
+	width: auto;
+
+	&::before {
+		content: "\eb35";
+		font-family: 'unicons';
+		margin-right: .125rem;
+	}
+}
+
+.pmpro_red {
+	color: $beehive-red;
+}
+.pmpro_grey {
+	color: $beehive-light;
+}
+
+.top1em {
+	margin-top: 1em;
+}
+
+.bot1em {
+	margin-bottom: 1em;
+}
+
+.bot0em {
+	margin-bottom: 0em;
+}
+
+.clear {
+	clear: both;
+}
+
+/*--------------------------------------------------
+	Beehive extras
+----------------------------------------------------*/
+body {
+
+	&.beehive-social-layout {
+
+		&.panel-collapsed {
+
+			&.pmpro-login,
+			&.pmpro-member-profile-edit,
+			&.pmpro-invoice,
+			&.pmpro-confirmation,
+			&.pmpro-checkout,
+			&.pmpro-cancel,
+			&.pmpro-billing,
+			&.pmpro-account {
+
+				@include small-min() {
+
+					.main-content {
+						max-width: 600px;
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+			}
+
+			&.pmpro-checkout {
+
+				.pm-pro-page-title {
+					text-align: center;
+					font-size: 1.922em;
+				}
+
+				h3 {
+					text-align: center;
+				}
+
+				#pmpro_form {
+
+					.pmpro_checkout {
+						padding: 2rem 2.5rem;
+						margin-bottom: 2rem;
+						border-radius: 12px;
+						box-shadow: 0 5px 20px rgba($beehive-shadow, 6%);
+
+						@include extra-small-max {
+							padding-left: 1.5rem;
+							padding-right: 1.5rem;
+						}
+					}
+
+					@include small-min() {
+						padding-left: 60px;
+						padding-right: 60px;
+
+						#pmpro_message {
+							margin-left: -60px;
+							margin-right: -60px;
+						}
+					}
+
+					.pmpro_btn {
+
+						&.pmpro_btn-submit-checkout {
+							margin-left: auto;
+							margin-right: auto;
+						}
+					}
+
+					#pmpro_processing_message {
+						text-align: center;
+					}
+				}
+			}
+
+			&.pmpro-levels {
+
+				.entry-content {
+
+					> h2 {
+						text-align: center;
+						font-size: 1.922em;
+					}
+				}
+
+				.pmpro_actions_nav {
+					text-align: center;
+				}
+			}
+
+			&.pmpro-member-profile-edit {
+
+				.entry-content {
+
+					> h2 {
+						font-size: 1.616em;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*---------------------------------------
+	Responsive Styles
+---------------------------------------*/
+@media only screen and (min-width: 1160px) {
+	.pmpro_checkout_gateway-stripe form.pmpro_form #pmpro_payment_information_fields #payment-request-button {
+		max-width: 50%;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1160px) {
+	.pmpro_checkout_gateway-stripe form.pmpro_form #pmpro_payment_information_fields #payment-request-button {
+		max-width: 50%;
+	}
+}

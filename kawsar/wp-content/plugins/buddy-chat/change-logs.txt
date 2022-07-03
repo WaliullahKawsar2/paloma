@@ -1,0 +1,38 @@
+=============================================================================
+=> BuddyChat Update History
+=============================================================================
+
+=> Version: 1.1.2 | Date: 21/11/2020
+-- Fix: cannot change buddychat pagination number.
+-- Fix: repeating chat messages.
+
+=> Version: 1.1.1 | Date: 12/18/2020
+-- Fix: online status on litespeed servers.
+-- Minor css changes.
+
+=> Version: 1.1.0 | Date: 12/14/2020
+-- Fix: conflict with the caching plugins.
+-- Fix: Buddychat pagination.
+-- Fix: chat text order.
+-- Fix: user is still shown online for some time even after he/she has signed out.
+-- Fix: buddychat search pulls users who are not in the friend list.
+-- Fix: chat window disapears after reloading the page.
+-- Users are now displayed alphabetically. After the reloading the page, online users will be at top.
+-- Clicking on emojis will display emojis in the textrarea instead of emoji code.
+
+=> Version: 1.0.4 | Date: 11/21/2020
+-- Fix: freezing issue of the emoji popup.
+-- .POT file update.
+-- Minor improvements.
+
+=> Version: 1.0.3 | Date: 07/27/2020
+-- Added "Forced Flush" option in the settings to turn of apache buffering.
+
+=> Version: 1.0.2 | Date: 07/27/2020
+-- Fix: group chat bug fixes.
+-- Improved chat experiences in mobile devices.
+-- POT file has been updated.
+-- Fix: member search
+
+=> Version: 1.0.1 | Date: 07/18/2020
+-- Bug fixes.

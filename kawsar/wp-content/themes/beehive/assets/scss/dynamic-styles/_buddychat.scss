@@ -1,0 +1,138 @@
+//
+// bbPress
+// @version 1.0.0
+//
+// Outputs buddychat dynamic styles
+
+#buddy-chat-app {
+
+    .popped-buddies {
+
+		> .dropd-control {
+			background-color: $primary;
+		}
+    }
+    
+    #buddy-chat-buddies__default {
+
+		.buddy-chat-buddies__container {
+
+			.header-container {
+
+				.window-title {
+
+					h5 {
+						color: $primary;
+					}
+				}
+			}
+		} 
+    }
+    
+    .buddy-chat-nav-tabs {
+		
+		li {
+			white-space: nowrap;
+			
+			a {
+                
+				&:hover,
+				&.active {
+					color: $primary;
+				}
+			}
+		}
+    }
+    
+    #buddy-chat-buddies {
+		
+		.buddy-chat-buddies__collapser {
+			
+			.collapse-icon {
+                background-color: $primary;
+                background-image: linear-gradient(135deg, lighten($primary,15%) 0%, $primary  55%, lighten($primary,25%)  110%);
+                background-size: 200% auto;
+            }
+            
+            &:hover {
+
+                .collapse-icon {
+                    background-position: right center;
+                    transition: all .5s;
+                }
+            }
+		}
+    }
+    
+    #buddy-chat-windows {
+
+        .bpc-chat-windows-list {
+
+            .user-list_inactive {
+
+                .dropd-control {
+                    background-color: $primary;
+                }
+            }
+        }
+
+        .chat-window__message-list {
+
+            .bpc-chat-list {
+
+                li {
+
+                    &.message--self {
+
+                        .message {
+                            background-color: rgba($primary, .05);
+                        }
+                    }
+
+                    &.message--other {
+
+                        .message {
+                            background-color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+		
+		.chat-window__inputarea {
+			
+			.chat-window__btn--enter {
+				
+				> span {
+					background-color: $primary;
+					background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+					color: #fff;
+					box-shadow: 0 1px 2px 0 rgba($primary, 0.5);
+				}
+            }
+		}
+    }
+
+    .dropd-item {
+
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+.beehive {
+
+    #buddy-chat-app {
+
+        .header-container {
+		
+			.header-title {
+				
+				.dashicons-format-chat {
+					color: $primary;
+				}
+			}
+		}
+    }
+}

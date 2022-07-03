@@ -1,0 +1,10 @@
+2022-06-28T15:25:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress\bp-core\bp-core-attachments.php:1294
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress\bp-core\bp-core-attachments.php(1478): bp_attachments_cover_image_generate_file(Array, Object(BP_Attachment_Cover_Image))
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php(307): bp_attachments_cover_image_ajax_upload('')
+#2 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bp_cove...')
+#5 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress\bp-core\bp-core-attachments.php on line 1294
+

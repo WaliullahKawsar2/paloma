@@ -1,0 +1,8 @@
+2022-07-03T14:23:21+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\google-listings-and-ads/src/Autoloader.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\google-listings-and-ads\google-listings-and-ads.php:36
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(2313): include_once()
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('google-listings...')
+#2 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\plugins.php(58): activate_plugin('google-listings...', 'http://localhos...', false)
+#3 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\google-listings-and-ads\google-listings-and-ads.php on line 36
+

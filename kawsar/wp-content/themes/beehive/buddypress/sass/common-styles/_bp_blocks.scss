@@ -1,0 +1,440 @@
+// BP Blocks
+// @version 6.0.0
+
+.bp-block-member {
+    margin-bottom: 1.5rem;
+
+    .member-content {
+        position: relative;
+
+        .member-description {
+            width: 100%;
+            position: relative;
+            
+            strong {
+
+                a {
+                    font-size: 1.25rem;
+                }
+            }
+
+            .bp-profile-button {
+                width: auto;
+                position: absolute;
+                top: 2rem;
+                right: 0;
+
+                a.button {
+                    font-size: 1em;
+                    padding-top: .375rem;
+                    padding-bottom: .375rem;
+                    line-height: 30px;
+                    position: relative;
+                    bottom: initial;
+                    right: initial;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    &.avatar-none {
+
+        .member-content {
+            background-color: $bp-pale__2;
+            border-radius: 12px;
+            padding: 2rem;
+
+            .member-description {
+
+                .bp-profile-button {
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                text-align: center;
+
+                .member-description {
+
+                    .bp-profile-button {
+                        position: relative;
+                        right: initial;
+                        top: initial;
+                        transform: unset;
+                        margin-top: .5rem;
+                    }
+                }
+            }
+        }
+
+        &.has-cover {
+
+            .member-content {
+
+                .member-description {
+
+                    .bp-profile-button {
+                        top: initial;
+                        right: 0;
+                        bottom: 10px;
+                        transform: unset;
+                    }
+                }
+
+                @media screen and (max-width: 600px) {
+
+                    .member-description {
+
+                        .bp-profile-button {
+                            right: initial;
+                            bottom: initial;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.avatar-thumb {
+
+        .member-content {
+            background-color: $bp-pale__2;
+            border-radius: 12px;
+            padding: 2rem;
+
+            .member-description {
+
+                .bp-profile-button {
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                text-align: center;
+                flex-direction: column;
+
+                .member-description {
+
+                    .bp-profile-button {
+                        position: relative;
+                        right: initial;
+                        top: initial;
+                        transform: unset;
+                        margin-top: .5rem;
+                    }
+                }
+            }
+        }
+
+        &.has-cover {
+
+            .member-content {
+
+                .member-description {
+
+                    .bp-profile-button {
+                        top: initial;
+                        right: 0;
+                        bottom: 10px;
+                        transform: unset;
+                    }
+                }
+
+                @media screen and (max-width: 600px) {
+                    padding-top: 45px;
+
+                    .member-description {
+                        padding-top: 0;
+
+                        .bp-profile-button {
+                            right: initial;
+                            bottom: initial;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.avatar-full {
+
+        .member-content {
+            background-color: $bp-pale__2;
+            border-radius: 12px;
+            padding: 2rem;
+            align-items: center;
+
+            .item-header-avatar {
+                margin-right: 20px;
+            }
+
+            .member-description {
+
+                .bp-profile-button {
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                text-align: center;
+                flex-direction: column;
+
+                .item-header-avatar {
+                    margin-right: 0;
+                    margin-bottom: .5rem;
+                }
+
+                .member-description {
+
+                    .bp-profile-button {
+                        position: relative;
+                        right: initial;
+                        top: initial;
+                        transform: unset;
+                        margin-top: .5rem;
+                    }
+                }
+            }
+        }
+
+        &.has-cover {
+
+            .member-content {
+
+                .item-header-avatar {
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    max-width: 150px;
+                    min-width: 150px;
+
+                    img.avatar {
+                        margin: 0;
+                    }
+                }
+
+                .member-description {
+
+                    .bp-profile-button {
+                        top: initial;
+                        right: 20px;
+                        bottom: initial;
+                        top: 28px;
+                        transform: unset;
+                    }
+                }
+
+                @media screen and (max-width: 600px) {
+                    padding-top: 45px;
+
+                    .member-description {
+                        padding-top: 0;
+
+                        .bp-profile-button {
+                            right: initial;
+                            bottom: initial;
+                            top: initial;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.has-cover {
+
+        .bp-member-cover-image {
+            border-radius: 12px;
+        }
+
+        .member-content {
+            padding: 0;
+            padding-top: 90px;
+            border-radius: 0;
+            background-color: transparent;
+        }
+    }
+}
+
+.bp-block-group {
+    margin-bottom: 1.5rem;
+
+    .group-content {
+        position: relative;
+
+        .group-description {
+            width: 100%;
+            position: relative;
+            
+            strong {
+
+                a {
+                    font-size: 1.25rem;
+                }
+            }
+
+            .bp-profile-button {
+                width: auto;
+                overflow: initial;
+
+                a.button {
+                    font-size: 1em;
+                    padding-top: .375rem;
+                    padding-bottom: .375rem;
+                    line-height: 30px;
+                    position: relative;
+                    bottom: initial;
+                    right: initial;
+                    margin: 0;
+                    float: none;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    &.avatar-none {
+
+        .group-content {
+            background-color: $bp-pale__2;
+            border-radius: 12px;
+            padding: 2rem;
+
+            @media screen and (max-width: 600px) {
+                text-align: center;
+            }
+        }
+    }
+
+    &.avatar-thumb {
+
+        .group-content {
+
+            .item-header-avatar {
+
+                img.avatar {
+                    margin-top: 0;
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                text-align: center;
+                flex-direction: column;
+
+                .item-header-avatar {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+        &.has-cover {
+
+            .group-content {
+
+                @media screen and (max-width: 600px) {
+                    padding-top: 45px;
+
+                    .group-description {
+                        padding-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &.avatar-full {
+
+        .group-content {
+
+            .group-description {
+                padding-left: 20px;
+            }
+
+            @media screen and (max-width: 600px) {
+                text-align: center;
+                flex-direction: column;
+
+                .item-header-avatar {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+        &.has-cover {
+
+            .group-content {
+
+                .item-header-avatar {
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    max-width: 150px;
+                    min-width: 150px;
+    
+                    img.avatar {
+                        margin-left: 0;
+                    }
+                } 
+    
+                .group-description {
+                    padding-left: 0;
+                }
+    
+                @media screen and (max-width: 600px) {
+                    padding-top: 45px;
+    
+                    .item-header-avatar {
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-bottom: 1rem;
+        
+                        img.avatar {
+                            margin-left: 0;
+                        }
+                    } 
+    
+                    .group-description {
+                        padding-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &.has-cover {
+
+        .bp-group-cover-image {
+            border-radius: 12px;
+        }
+
+        .group-content {
+            padding: 0;
+            padding-top: 90px;
+            border-radius: 0;
+            background-color: transparent;
+        }
+    }
+
+    &.has-description {
+
+        .group-content {
+
+            .group-description {
+
+                strong {
+                    display: block;
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
+}

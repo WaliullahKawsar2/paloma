@@ -1,0 +1,12 @@
+2022-07-02T06:14:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rtm_album_media_count(), 1 passed in /code/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /code/wp-content/plugins/buddypress-media/app/main/controllers/template/rtmedia-actions.php:678
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(307): rtm_album_media_count('')
+#1 /code/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /code/wp-content/themes/beehive/rtmedia/media/album-gallery-item.php(58): do_action('rtmedia_after_a...')
+#4 /code/wp-content/themes/beehive/rtmedia/media/album-gallery.php(55): include('/code/wp-conten...')
+#5 /code/wp-content/plugins/buddypress-media/app/main/controllers/template/rtmedia-functions.php(2648): include_once('/code/wp-conten...')
+#6 /code/wp-content/themes/beehive/rtmedia/main.php(110): rtmedia_load_template()
+#7 /code/wp-includes/template.php(770): require_once('/code/wp-conten...')
+#8 /code/wp-content/plug in /code/wp-content/plugins/buddypress-media/app/main/controllers/template/rtmedia-actions.php on line 678
+

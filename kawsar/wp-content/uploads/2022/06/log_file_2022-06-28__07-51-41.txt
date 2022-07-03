@@ -1,0 +1,129 @@
+
+---Downloaded files---
+The import files for: Demo 1 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/socialnetwork/kawsar
+Data file = D:\XAMPP\htdocs\socialnetwork\kawsar/wp-content/uploads/2022/06/demo-content-import-file_2022-06-28__07-51-41.xml
+Widget file = D:\XAMPP\htdocs\socialnetwork\kawsar/wp-content/uploads/2022/06/demo-widgets-import-file_2022-06-28__07-51-41.json
+Customizer file = D:\XAMPP\htdocs\socialnetwork\kawsar/wp-content/uploads/2022/06/demo-customizer-import-file_2022-06-28__07-51-41.dat
+Redux files:
+beehive_opts -> D:\XAMPP\htdocs\socialnetwork\kawsar/wp-content/uploads/2022/06/demo-redux-import-file_0-2022-06-28__07-51-41.json 
+
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "white-logo" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "white-logo" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "white-logo" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "white-logo" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "white-logo" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "white-logo" (Media)
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Default Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+footer_widgets : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Company - Imported to Inactive
+Navigation Menu - Community - Imported to Inactive
+Navigation Menu - Useful Links - Imported to Inactive
+Navigation Menu - Legal - Imported to Inactive
+
+Jobs Sidebar : 
+
+Featured Jobs - Featured Jobs - Imported
+
+Media Sidebar : 
+
+bp_core_members_widget - Members - Site does not support widget
+
+Forums Sidebar : 
+
+(bbPress) Recent Topics - Recent Topics - Imported
+
+Classified Sidebar : 
+
+WPAdverts Ads - Recent Ads - Imported
+
+Shop Sidebar : 
+
+Products list - Products - Imported
+
+Shop Filters : 
+
+Filter Products by Attribute - Filter by - Imported
+Filter Products by Attribute - Filter by - Imported
+
+Buddypress Sidebar : 
+
+bp_core_members_widget - Members - Site does not support widget
+
+Member Profile Sidebar : 
+
+(Beehive), Activity List - Recent activity - Imported
+
+Group Profile Sidebar : 
+
+(Beehive), Activity List - Recent activity - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: beehive_opts finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

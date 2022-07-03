@@ -1,0 +1,61 @@
+.question-fill-in-blank .question-passage,
+.question-type-fill_in_blank .question-passage {
+  margin-bottom: 1.5rem; }
+  .question-fill-in-blank .question-passage p,
+  .question-type-fill_in_blank .question-passage p {
+    display: inline; }
+.question-fill-in-blank .fib-blank,
+.question-type-fill_in_blank .fib-blank {
+  display: inline-block;
+  width: auto;
+  border: none;
+  line-height: 1;
+  margin: 0 .25rem; }
+  .question-fill-in-blank .fib-blank .question-passage,
+  .question-type-fill_in_blank .fib-blank .question-passage {
+    font-size: 14px;
+    margin-bottom: 20px; }
+  .question-fill-in-blank .fib-blank input,
+  .question-type-fill_in_blank .fib-blank input {
+    width: auto; }
+  .question-fill-in-blank .fib-blank input[type="text"],
+  .question-type-fill_in_blank .fib-blank input[type="text"] {
+    display: inline-block;
+    border: none;
+    text-align: left;
+    margin: 0;
+    box-shadow: none;
+    line-height: 1; }
+  .question-fill-in-blank .fib-blank input[type="text"][disabled],
+  .question-type-fill_in_blank .fib-blank input[type="text"][disabled] {
+    opacity: 1; }
+  .question-fill-in-blank .fib-blank .blank-fill,
+  .question-type-fill_in_blank .fib-blank .blank-fill {
+    color: #5561e2;
+    display: inline-block;
+    min-width: 20px;
+    border-bottom: 1px dashed #e7edf2;
+    font-weight: 600; }
+  .question-fill-in-blank .fib-blank .blank-status,
+  .question-type-fill_in_blank .fib-blank .blank-status {
+    color: #bbbbdc; }
+  .question-fill-in-blank .fib-blank.correct:not(.blank-type-range):not(.blank-type-any) .blank-status,
+  .question-type-fill_in_blank .fib-blank.correct:not(.blank-type-range):not(.blank-type-any) .blank-status {
+    display: none; }
+  .question-fill-in-blank .fib-blank.wrong .blank-fill,
+  .question-type-fill_in_blank .fib-blank.wrong .blank-fill {
+    color: #FF0000;
+    text-decoration: line-through; }
+  .question-fill-in-blank .fib-blank.checked .check-label,
+  .question-type-fill_in_blank .fib-blank.checked .check-label {
+    font-style: italic; }
+  .question-fill-in-blank .fib-blank.checked .wrong,
+  .question-type-fill_in_blank .fib-blank.checked .wrong {
+    color: #FF0000;
+    text-decoration: line-through; }
+  .question-fill-in-blank .fib-blank.checked .correct,
+  .question-type-fill_in_blank .fib-blank.checked .correct {
+    color: #5561e2; }
+  .question-fill-in-blank .fib-blank:before,
+  .question-type-fill_in_blank .fib-blank:before {
+    content: "#" attr(data-index) ". "; }

@@ -1,0 +1,68 @@
+//
+// Social article
+// @version 1.4.0
+//
+// Outputs social articles dynamic styles
+
+.buttons-container {
+
+    input,
+    button {
+
+        &[type="submit"] {
+
+            &.button.cancel {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.sa-error-container {
+    border-top-color: $error-color;
+}
+
+.sa-post-status-container {
+    border-top: 2px solid $primary;
+
+    .publish {
+        background-color: $success-color;
+        color: #fff;	
+    }
+
+    .pending {
+        background: $warn-color;
+        color: #fff;
+    }
+
+    .draft{
+        background: $error-color;
+        color: #fff;
+    }
+
+    .new-post{
+        background: $info-color;
+        color: #fff;
+    }
+}
+
+.qq-progress-bar {
+    background: $success-color !important;
+}
+
+.qq-upload-button {
+	color: $primary;
+	fill: $primary;
+	border: 1px solid $primary;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $primary;
+		color: #fff;
+	}
+}
+
+.logo-image-error-container {
+    background-color: $error-color;
+}

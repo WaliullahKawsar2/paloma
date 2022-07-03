@@ -1,0 +1,85 @@
+2022-06-29T07:05:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress\bp-core\bp-core-attachments.php:1294
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress\bp-core\bp-core-attachments.php(1478): bp_attachments_cover_image_generate_file(Array, Object(BP_Attachment_Cover_Image))
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php(307): bp_attachments_cover_image_ajax_upload('')
+#2 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bp_cove...')
+#5 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress\bp-core\bp-core-attachments.php on line 1294
+
+2022-06-29T07:28:18+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master/includes/class-wp2static-addon-github.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php:62
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(2313): include_once()
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('wp2static-addon...')
+#2 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\plugins.php(58): activate_plugin('wp2static-addon...', 'http://localhos...', false)
+#3 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php on line 62
+
+2022-06-29T07:28:22+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master/includes/class-wp2static-addon-github.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php:62
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(2313): include_once()
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\plugins.php(192): plugin_sandbox_scrape('wp2static-addon...')
+#2 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php on line 62
+
+2022-06-29T07:28:22+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master/includes/class-wp2static-addon-github.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php:62
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(2313): include_once()
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\plugins.php(192): plugin_sandbox_scrape('wp2static-addon...')
+#2 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php on line 62
+
+2022-06-29T07:28:46+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master/includes/class-wp2static-addon-github.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php:62
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(2313): include_once()
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('wp2static-addon...')
+#2 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\plugins.php(58): activate_plugin('wp2static-addon...', 'http://localhos...', false)
+#3 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php on line 62
+
+2022-06-29T07:28:50+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master/includes/class-wp2static-addon-github.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php:62
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(2313): include_once()
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\plugins.php(192): plugin_sandbox_scrape('wp2static-addon...')
+#2 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php on line 62
+
+2022-06-29T07:28:50+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master/includes/class-wp2static-addon-github.php' (include_path='D:\XAMPP\php\PEAR') in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php:62
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\includes\plugin.php(2313): include_once()
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-admin\plugins.php(192): plugin_sandbox_scrape('wp2static-addon...')
+#2 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\wp2static-addon-github-master\wp2static-addon-s3.php on line 62
+
+2022-06-29T07:31:16+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-06-29T07:31:20+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-06-29T07:31:20+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-06-29T08:52:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rtm_album_media_count(), 1 passed in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress-media\app\main\controllers\template\rtmedia-actions.php:678
+Stack trace:
+#0 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php(307): rtm_album_media_count('')
+#1 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\themes\beehive\rtmedia\media\album-gallery-item.php(58): do_action('rtmedia_after_a...')
+#4 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\themes\beehive\rtmedia\media\album-gallery.php(55): include('D:\\XAMPP\\htdocs...')
+#5 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress-media\app\main\controllers\template\rtmedia-functions.php(2648): include_once('D:\\XAMPP\\htdocs...')
+#6 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\themes\beehive\rtmedia\main.php(110): rtmedia_load_template()
+#7 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\template.php(770): require_once('D:\\XAMPP\\htdocs...')
+#8 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress-media\app\main\routers\RTMediaRouter.php(199): load_template('D:\\XAMPP\\htdocs...')
+#9 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\class-wp-hook.php(307): RTMediaRouter->rt_replace_the_content('')
+#10 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\plugin.php(191): WP_Hook->apply_filters('', Array)
+#11 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\post-template.php(253): apply_filters('the_content', '')
+#12 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\themes\beehive\template-parts\content-page.php(25): the_content()
+#13 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\template.php(772): require('D:\\XAMPP\\htdocs...')
+#14 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\template.php(716): load_template('D:\\XAMPP\\htdocs...', false, Array)
+#15 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#16 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\themes\beehive\buddypress.php(22): get_template_part('template-parts/...', 'page')
+#17 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-includes\template-loader.php(106): include('D:\\XAMPP\\htdocs...')
+#18 D:\XAMPP\htdocs\socialnetwork\kawsar\wp-blog-header.php(19): require_once('D:\\XAMPP\\htdocs...')
+#19 D:\XAMPP\htdocs\socialnetwork\kawsar\index.php(17): require('D:\\XAMPP\\htdocs...')
+#20 {main}
+  thrown in D:\XAMPP\htdocs\socialnetwork\kawsar\wp-content\plugins\buddypress-media\app\main\controllers\template\rtmedia-actions.php on line 678
+

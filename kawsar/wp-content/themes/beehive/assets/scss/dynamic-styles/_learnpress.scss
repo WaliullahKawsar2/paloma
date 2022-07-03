@@ -1,0 +1,675 @@
+//
+// Learnpress scss
+// @version 1.2.0
+//
+// Outputs buddypress dynamic styles
+
+// BP generic elements & typography styles
+
+.learn-press-checkout {
+
+    > p {
+
+        > a {
+            color: $primary;
+        }
+    }
+
+    + p {
+
+        > a {
+            color: $primary;
+        }
+    }
+}
+
+#learn-press-payment {
+    
+    .payment-methods {
+
+        .lp-payment-method {
+
+            &.selected {
+
+                > label {
+                    background: rgba($primary, .05);
+                }
+            }
+        }
+    }
+}
+
+#learn-press-checkout-login,
+#learn-press-checkout-register {
+
+    p {
+
+        a[data-toggle] {
+            color: $primary;
+        }
+    }
+
+    .learn-press-form-login {
+
+        form {
+
+            > p {
+
+                > a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.lp-label {
+
+    &.label-finished,
+    &.label-completed {
+        background: $secondary;
+    }
+
+    &.label-passed {
+        background: $success-color;
+    }
+
+    &.label-failed {
+        background: $error-color;
+    } 
+
+    &.label-enrolled,
+    &.label-started {
+        background: $primary;
+    }
+}
+
+#learn-press-profile-nav {
+
+    .tabs {
+
+        > li {
+
+            a {
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+
+            &.active {
+
+                > a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+#learn-press-profile-content {
+ 
+    .learn-press-profile-dashboard {
+
+        > p {
+
+            > a {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.lp-tab-sections {
+
+    .section-tab {
+
+        &.active {
+
+            span {
+                color: $primary;
+            } 
+        }
+    }
+
+    > .section-tab {
+
+        &.active {
+            border-bottom: 2px solid $primary;
+        }
+    }
+}
+
+.lp-sub-menu {
+
+    li {
+
+        span {
+            color: $primary;
+        }
+
+        @include extra-small-min() {
+
+            span {
+                background-color: $primary;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.lp-avatar-preview {
+
+    .lp-avatar-upload-progress {
+
+        .lp-avatar-upload-progress-value {
+            background: $primary;
+        }
+    }
+
+    .lp-avatar-upload-error {
+        color: $error-color;
+    }
+
+    &.croping {
+        
+        .lp-avatar-crop-image {
+
+            .lp-crop-controls {
+        
+                .lp-zoom {
+                    background-color: $primary;
+                }
+            }
+        }
+    }
+}
+
+#learn-press-user-profile {
+
+    .learn-press-form-login,
+    .learn-press-form-register {
+
+        p {
+
+            > a {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.lp-single-course {
+
+    .lp-course-buttons {
+
+        button.learn-press-course-wishlist {
+            color: $primary;
+
+            &:hover,
+            &:active,
+            &:focus {
+                color: $primary;
+            }
+        }
+    }
+
+    .course-price {
+
+        .price {
+            color: $primary;
+        }
+    }
+
+    .lp-course-buttons {
+
+        input[type="submit"],
+        button[type="submit"],
+        .button {
+            background-color: $primary;
+            background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+            color: #fff;
+            box-shadow: 0 1px 2px 0 rgba($primary, .5);
+            
+            &:hover {
+                background-color: lighten($primary, 10%);
+                box-shadow: 0 1px 3px 0 rgba($primary, .5);
+            }
+        }
+    }
+}
+
+ul.learn-press-nav-tabs {
+
+    .course-nav {
+
+        a {
+
+            &:hover {
+                color: $primary;
+            }
+        }
+
+        &.active {
+
+            a {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.course-curriculum {
+
+    ul.curriculum-sections {
+
+        .section-header {
+
+            .section-title {
+
+                &::before {
+                    color: $primary;
+                }
+            }
+        }
+
+        .section-content {
+
+            .course-item {
+
+                &.has-status {
+
+                    &.status-completed,
+                    &.status-started {
+
+                        .course-item-status {
+                            color: $success-color;
+                        }
+                    }
+
+                    &.status-completed {
+
+                        .course-item-status {
+                            color: $success-color;
+                        }
+                    }
+
+                    &.passed {
+
+                        .course-item-status {
+                            color: $success-color;
+                        }
+                    }
+
+                    &.item-failed,
+                    &.failed {
+
+                        .course-item-status {
+                            color: $error-color;
+
+                            &::before {
+                                content: "\eaeb";
+                            }
+                        }
+                    }
+                }
+
+                &::before {
+                    background: $primary;
+                } 
+            }
+        }
+    }
+}
+
+
+.learn-press-course-results-progress {
+
+    .lp-course-status {
+
+        .grade {
+
+            &.failed {
+                background-color: $success-color;
+            }
+
+            &.passed {
+                background-color: $error-color;
+            }
+        }
+    }
+}
+
+#course-item-content-header {
+
+    .form-button{
+
+        &.lp-button-back {
+            
+            .lp-button {
+
+                &:hover,
+                &:active,
+                &:focus {
+                    color: $primary;    
+                }
+            }
+        }
+    }
+}
+
+body {
+
+    &.course-item-popup {
+
+        @media screen and (max-width: 767.98px) {
+
+            #course-item-content-header {
+
+                .form-button.lp-button-back {
+                    
+                    .lp-button {
+
+                        &:hover {
+                            color: $primary;    
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.lp-quiz-buttons {
+
+    .form-button {
+
+        button[type="submit"] {
+            color: $primary;
+            border: 1px solid $primary;
+           
+
+            &:hover {
+                background-color: $primary;
+                color: #fff;
+            }
+        }
+
+        &.complete-quiz {
+
+
+            button[type="submit"] {
+                background-color: $primary;
+                background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+                color: #fff;
+                box-shadow: 0 1px 2px 0 rgba($primary, .5);
+                
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: lighten($primary, 10%);
+                    box-shadow: 0 1px 3px 0 rgba($primary, .5);
+                }
+            }
+        }
+    }
+}
+
+.quiz-progress {
+
+    .progress-items {
+
+        .progress-item {
+
+            .progress-number {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.question-numbers {
+
+    li {
+
+        a {
+
+            &:hover {
+                color: $primary;
+            }
+        }
+
+        &.current {
+
+            a {
+                background-color: $primary;
+                background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+                color: #fff;
+                box-shadow: 0 1px 3px 0 rgba($primary, .5);
+            }
+
+            &.skipped {
+
+                &::after {
+                    background-color: #fff;
+                }
+            }
+        }
+
+        &.answered {
+
+            &.answered-wrong {
+
+                a {
+                    color: $error-color;
+                }
+            }
+
+            &.answered-true {
+
+                a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.quiz-result {
+
+    .result-statistic {
+
+        .result-statistic-field {
+
+            .result-field-wrapper {
+
+                > p {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.question-explanation-content,
+.question-hint-content {
+    border-left: 2px solid $primary;
+}
+
+.learn-press-message {
+
+    &.fixed {
+        background: rgba($primary, 0.6);
+        color: #fff;
+    }
+
+    &.error {
+
+        &::before {
+            background: $error-color;
+        }
+
+        &.icon {
+
+            &::before {
+                background: $error-color;
+            }
+
+            &::after {
+                background: $error-color;
+            }
+        }
+    }
+}
+
+.learn-press-tip {
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+ul {
+
+    &.learn-press-courses {
+
+        .course {
+
+            .course-meta {
+
+                .course-price {
+
+                    .price {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.learn-press-progress {
+
+    .progress-bg {
+
+        .progress-active {
+            background: $primary !important;
+        }
+    }
+}
+
+.learn-press-message {
+    border-top: 2px solid $primary;
+
+
+    a {
+        color: $primary;
+    }
+
+    &.icon {
+        
+        &::after {
+            background: $primary;
+        }
+    }
+
+    &.error {
+
+        &::before {
+            background: $error-color;
+        }
+
+        &.icon {
+
+            &::before {
+                background: $error-color;
+            }
+
+            &::after {
+                content: "\f00d";
+                background: $error-color;
+            }
+        }
+    }
+
+    &.success {
+
+        &.icon {
+
+            &::before {
+                background: $primary;
+            }
+
+            &::after {
+                content: "\f129";
+                background: $primary;
+            }
+        }
+    }
+}
+
+.user-dashboard-statistics {
+
+    ul.stats {
+
+        .item {
+
+            .item-wrapper {
+                border-left: 2px solid $primary;
+            }
+        }
+    }
+}
+
+.learn-press-terms {
+
+    > label {
+
+        > a {
+            color: $primary;
+        }
+    }
+}
+
+// Addons:
+// LP bbPress
+a.learn-press-course-forum-link {
+    color: $primary;
+}
+
+// LP fill in blank
+.question-fill-in-blank,
+.question-type-fill_in_blank {
+
+    .fib-blank {
+
+        .blank-fill {
+            color: $primary;
+        }
+
+        &.checked {
+
+            .correct {
+                color: $primary;
+            }
+        }
+    }
+}
+
+// LP course review
+.course-rate-wrapper {
+
+    .detailed-rating {
+
+        .course-rate {
+
+            .review-bar {
+
+                .rating {
+                    background: $primary;
+                }           
+            }
+        }
+    }
+}

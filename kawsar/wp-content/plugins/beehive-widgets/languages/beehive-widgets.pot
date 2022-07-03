@@ -1,0 +1,60 @@
+# Copyright (C) 2020 thunder-team
+# This file is distributed under the same license as the Beehive Widgets plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Beehive Widgets 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/beehive-widgets\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-26T01:31:33+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: beehive-widgets\n"
+
+#. Plugin Name of the plugin
+msgid "Beehive Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://themified.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin will be creating several use widgets for beehive theme."
+msgstr ""
+
+#. Author of the plugin
+msgid "thunder-team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/thunder-team"
+msgstr ""
+
+#: includes/widgets/beehive-widget-latest-activity.php:28
+msgid "Shows activity list"
+msgstr ""
+
+#: includes/widgets/beehive-widget-latest-activity.php:30
+msgid "(Beehive), Activity List"
+msgstr ""
+
+#: includes/widgets/beehive-widget-latest-activity.php:51
+#: includes/widgets/beehive-widget-latest-activity.php:103
+msgid "Recent activity"
+msgstr ""
+
+#: includes/widgets/beehive-widget-latest-activity.php:70
+msgid "No activity found!"
+msgstr ""
+
+#: includes/widgets/beehive-widget-latest-activity.php:109
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/beehive-widget-latest-activity.php:113
+msgid "Max activity to show:"
+msgstr ""

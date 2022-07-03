@@ -1,0 +1,14 @@
+// Extra styles from third party addons implemented by the beehive theme
+// @version 1.4.0
+
+// Block, Suspend, Report for BuddyPress
+
+#bptk-blocked-template {
+	padding-top: 30px;
+	padding-bottom: 70px;
+
+	#item-header-avatar,
+	#bptk-blocked-template-buttons .bptk-block-profile {
+		margin-bottom: 1rem;
+	}
+}

@@ -1,0 +1,51 @@
+# Copyright (C) 2020 thunder-team
+# This file is distributed under the same license as the Beehive Job Categories plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Beehive Job Categories 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/beehive-job-categories\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-26T23:24:12+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: beehive-job-categories\n"
+
+#. Plugin Name of the plugin
+msgid "Beehive Job Categories"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://themified.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds shortcode for displaying wp job manager categories."
+msgstr ""
+
+#. Author of the plugin
+msgid "thunder-team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/thunder-team"
+msgstr ""
+
+#: includes/class-wpjm-categories-shortcode.php:118
+msgid "Enable job categories in the wp job manager settings."
+msgstr ""
+
+#: includes/class-wpjm-categories-shortcode.php:120
+msgid "Nothing found!"
+msgstr ""
+
+#: templates/content-job-categories.php:51
+msgid "View All"
+msgstr ""
+
+#: templates/content-job-categories.php:63
+msgid "No job categories found."
+msgstr ""

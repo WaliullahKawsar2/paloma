@@ -1,4 +1,4 @@
-The website (https://dev-paloma.pantheonsite.io/) has been made with Wordpress. At first, I use Xampp server in my pc and design whole site under localhost.Then I use Pantheon (a free host service provider) to make my website alive.I have used SFTP development mode for my website.
+The website (https://dev-paloma.pantheonsite.io/) has been made with Wordpress. At first, I use Xampp server in my pc and design whole site under localhost.Then I use Pantheon (a free host service provider) to make my website alive. I have used SFTP development mode for my website.
 
 The things used in my website are:
 
